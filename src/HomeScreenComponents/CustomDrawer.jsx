@@ -32,13 +32,6 @@ const CustomDrawer = ({navigation}) => {
       LastText: 'neha.r@texlaculture.com',
     },
   ];
-  const CustonList = props => {
-    return (
-      <View>
-        <Text>{props.data}</Text>
-      </View>
-    );
-  };
   const DATA = [
     {
       id:1,
@@ -178,32 +171,6 @@ const CustomDrawer = ({navigation}) => {
         </View>
       </View>
       {/* Section list start from here */}
-      {/* <View style={{height: 500, marginTop: 20, backgroundColor: '#fff'}}>
-        <View
-          style={{
-            marginHorizontal: 15,
-            borderColor: 'lightgray',
-            borderWidth: 1,
-            marginTop: 20,
-            borderRadius: 5,
-            flexDirection:'row',
-            justifyContent:'space-between',
-            padding:15,
-            alignContent:'baseline'
-            
-
-          }}>
-          <View style={{flexDirection:'row',alignItems:'baseline'}}>
-            <Dotfill name="dot-fill" size={20}/>
-            <Text style={{marginLeft:10,fontSize:20,fontWeight:'bold'}}>My Profile</Text>
-          </View>
-         <View style={{alignItems:'baseline'}}>
-         <RightArrow name="chevron-right" size={24}/>
-         </View>
-        </View>
-        
-      </View> */}
-
       <View style={{marginTop: 20, paddingBottom: 10, backgroundColor: '#fff'}}>
         {DATA.map(item =>
           item.heading !== '' ? (

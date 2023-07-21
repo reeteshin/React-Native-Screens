@@ -280,7 +280,7 @@ const Home = ({navigation}) => {
                     >
                         <View>
                             <Text style={{ color: "green" }}>
-                                hiihhii
+                                Empty Text
                             </Text>
                         </View>
                     </MapView>
@@ -292,8 +292,6 @@ const Home = ({navigation}) => {
         </ScrollView>
     )
 }
-
-// AIzaSyCTQRudSbqdTk4mszuqpF6TfMiM3dPvnJU
 
 export default Home
 
